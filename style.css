@@ -9,15 +9,28 @@ body {
 }
 nav{
     display: flex;
-    position: fixed;
+  /*  position: fixed;*/
 }
 .Main-container{
     width: 80%; 
     margin: auto; 
-    padding: 10px;  
+    padding: 5%;  
+    
 }
 .img-box{
     max-width: 100%;
     height: 2em;
     border-radius: 50%;
+}
+.Search-container{
+    margin: 5%;
+    padding: 5% ;
+   
+}
+.Search-container h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: lighter;
+    
 }

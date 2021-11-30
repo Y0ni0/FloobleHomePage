@@ -9,8 +9,9 @@ body {
 }
 nav{
     display: flex;
+    position: fixed;
 }
-.container{
+.Main-container{
     width: 80%; 
     margin: auto; 
     padding: 10px;  

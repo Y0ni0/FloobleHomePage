@@ -91,13 +91,13 @@ a :hover, :visited{
     color: #FFFFFF;
 }
 
-.search-box-container{
+.search-box-parent{
     align-self: center;
     margin: 5%;
     padding: 148,257,239,258;
     
 }
-.search-box-container .search-box{
+.search-box-parent .search-box{
     padding-top: 51;
     padding-bottom: 51;
     display: inline;  

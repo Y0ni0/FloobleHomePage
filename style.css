@@ -14,9 +14,8 @@ body {
 
 
 .Main-container{
-   
     margin: 0%;
-    padding: 26px; 
+    padding: 2%; 
     border: none; 
    
 }
@@ -35,8 +34,8 @@ body {
 .container-1 .box-2 {
     display: flex;
     flex-direction: row;
-    align-self: flex-start;
-    justify-items: space-between;
+    align-self: flex-end;
+    justify-items: space-between; 
 }
 .box-1 .links{
     display: flex;
@@ -44,15 +43,14 @@ body {
 }
 .box-2 .links{
     display: flex;
-    padding-right: 43px;
-    border: none;
-    border-width: 100%;
+    padding-right: 43px;   
 }
-img .icon{
-   
+.box-2 .links .icon{
+    width: 100%;
+    height: 20px;
+    padding-top: 2px;
 }
-.img-box{
-    
+.img-box{  
     max-width: 100%;
     height: 2em;
     border-radius: 50%;

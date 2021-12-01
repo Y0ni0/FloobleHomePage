@@ -40,10 +40,12 @@ body {
 .box-1 .links{
     display: flex;
     padding-right: 43px;
+    padding-top: 5px;
 }
 .box-2 .links{
     display: flex;
-    padding-right: 43px;   
+    padding-right: 43px; 
+    padding-top: 5px;  
 }
 .box-2 .links .icon{
     width: 100%;
@@ -55,34 +57,56 @@ body {
     height: 2em;
     border-radius: 50%;
 }
+a {
+    color: #FFFFFF;  
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+}
+a :hover, :visited{
+    background-color: azure;
+}
 .Search-container{
     margin: 5%;
-    padding: 5% ;
-   
+    padding: 5% ;  
+}
+.Search-container .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .Search-container h1{
-    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    font-size: 55px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
     font-weight: lighter;  
     margin: 2%;
     text-align: center;
 }
+.blue{
+    color: #3BB99B;
+}
+.white{
+    color: #FFFFFF;
+}
+
 .search-box-container{
     align-self: center;
     margin: 5%;
     padding: 148,257,239,258;
     
 }
-.Search-container .search-box-container .search-box{
-  padding-top: 51;
-  padding-bottom: 51;
-  display: inline;
-  
+.search-box-container .search-box{
+    padding-top: 51;
+    padding-bottom: 51;
+    display: inline;  
 }
+
 .Search-container input{
     padding: 8px;
     width: 100%;
+    border-radius: 20px;
 }
 .img-search{
     max-width: 100%;

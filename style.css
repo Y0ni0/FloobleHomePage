@@ -71,7 +71,7 @@ a {
     text-decoration: none;
 }
 a :hover, :visited{
-    background-color: azure;
+    background-color: rgb(241, 240, 255);
 }
 .Search-container{
     margin: 5%;

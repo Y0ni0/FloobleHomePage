@@ -70,9 +70,11 @@ a {
     font-family: Arial, Helvetica, sans-serif; 
     text-decoration: none;
 }
-a :hover, :visited{
-    background-color: rgb(21, 9, 190);
+ a :hover, :visited{
+    background-color: #707793;
 }
+
+
 .Search-container{
     margin: 5%;
     padding: 5% ;  
